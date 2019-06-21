@@ -54,7 +54,7 @@ class App extends Component {
                status={this.state.status}
                />
         <Wrapper>
-          {this.state.veggies.map(veg => (
+          {this.state.veggies.map(veggies => (
             <Card
               shuffleCards={this.shuffleCards}
               id={veggies.id}
